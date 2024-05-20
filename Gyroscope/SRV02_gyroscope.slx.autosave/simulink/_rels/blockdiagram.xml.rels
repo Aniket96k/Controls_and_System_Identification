@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Id="ScheduleCore" Target="ScheduleCore.xml" Type="http://schemas.mathworks.com/simulink/2013/relationships/ScheduleCore"/>
+  <Relationship Id="ScheduleEditor" Target="ScheduleEditor.xml" Type="http://schemas.mathworks.com/simulink/2013/relationships/ScheduleEditor"/>
+  <Relationship Id="SimscapeModelParametersPlugin" Target="plugins/SimscapeModelParametersPlugin.xml" Type="http://schemas.mathworks.com/simulinkModel/2014/relationships/pluginParameters"/>
+  <Relationship Id="UserData_161" Target="bdmxdata/UserData_161.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelUserData"/>
+  <Relationship Id="UserData_2" Target="bdmxdata/UserData_2.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelUserData"/>
+  <Relationship Id="UserData_4" Target="bdmxdata/UserData_4.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelUserData"/>
+  <Relationship Id="UserData_5" Target="bdmxdata/UserData_5.mxarray" Type="http://schemas.mathworks.com/simulinkModel/2015/relationships/modelUserData"/>
+  <Relationship Id="graphicalInterface" Target="graphicalInterface.xml" Type="http://schemas.mathworks.com/simulinkModel/2014/relationships/graphicalInterface"/>
+  <Relationship Id="stateflow_machine" Target="stateflow/machine.xml" Type="http://schemas.mathworks.com/simulinkModel/2014/relationships/stateflowMachine"/>
+  <Relationship Id="system_root" Target="systems/system_root.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="windowsInfo" Target="windowsInfo.xml" Type="http://schemas.mathworks.com/simulinkModel/2019/relationships/windowsInfo"/>
+</Relationships>

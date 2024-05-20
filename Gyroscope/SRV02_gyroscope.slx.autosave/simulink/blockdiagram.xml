@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInformation Version="1.0">
+  <Model>
+    <P Name="ModelUUID">ab75ee10-11aa-493d-ae03-20330d88e2ce</P>
+    <P Name="PostLoadFcn">qc_set_target_type(getConfigSet(bdroot, &apos;QUARC Default Target Configuration&apos;));</P>
+    <P Name="SLXCompressionType">Normal</P>
+    <P Name="LastSavedArchitecture">win64</P>
+    <UserParameters>
+      <P Name="CheckForProblematicBlocks">on</P>
+    </UserParameters>
+    <ConfigManagerSettings>
+      <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
+      <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:7.6&gt;</P>
+    </ConfigManagerSettings>
+    <EditorSettings>
+      <P Name="LibraryLinkDisplay">none</P>
+      <P Name="BlockVariantConditionDataTip">on</P>
+      <P Name="ScheduleConnectors">off</P>
+      <P Name="MultithreadedSim">on</P>
+    </EditorSettings>
+    <SimulationSettings>
+      <P Name="SimulationMode">external</P>
+      <Object PropName="DataLoggingOverride" ObjectID="1" ClassName="Simulink.SimulationData.ModelLoggingInfo">
+        <P Name="model_" Class="char">$bdroot</P>
+        <Array PropName="logAsSpecifiedByModels_" Type="Cell" Dimension="1*1">
+          <Cell Class="char">$bdroot</Cell>
+        </Array>
+        <Array PropName="logAsSpecifiedByModelsSSIDs_" Type="Cell" Dimension="1*1">
+          <Cell Class="char"/>
+        </Array>
+      </Object>
+    </SimulationSettings>
+    <ExternalMode>
+      <P Name="ExtModeTrigDuration">10000</P>
+    </ExternalMode>
+    <EngineSettings>
+      <P Name="ConfigurableSubsystemUsage">warning</P>
+    </EngineSettings>
+    <ConcurrentExecutionSettings>
+      <Object PropName="DataTransfer" ObjectID="2" ClassName="Simulink.GlobalDataTransfer">
+        <P Name="DefaultTransitionBetweenSyncTasks" Class="char">Ensure deterministic transfer (maximum delay)</P>
+        <P Name="DefaultTransitionBetweenAsyncTasks" Class="char">Ensure data integrity only</P>
+        <P Name="DefaultTransitionBetweenContTasks" Class="char">Ensure deterministic transfer (minimum delay)</P>
+        <P Name="DefaultExtrapolationMethodBetweenContTasks" Class="char">None</P>
+      </Object>
+    </ConcurrentExecutionSettings>
+    <System Ref="system_root"/>
+  </Model>
+</ModelInformation>

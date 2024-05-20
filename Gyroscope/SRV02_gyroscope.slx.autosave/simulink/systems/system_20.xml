@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-1, -8, 1921, 1161]</P>
+  <P Name="Open">on</P>
+  <Block BlockType="Inport" Name="u" SID="21">
+    <P Name="Position">[80, 178, 110, 192]</P>
+    <P Name="ZOrder">24</P>
+  </Block>
+  <Block BlockType="Gain" Name="Gain" SID="51">
+    <P Name="Position">[140, 170, 170, 200]</P>
+    <P Name="ZOrder">30</P>
+    <P Name="Gain">-1</P>
+  </Block>
+  <Block BlockType="Reference" Name="HIL Initialize" SID="2">
+    <PortCounts/>
+    <P Name="Position">[440, 144, 524, 219]</P>
+    <P Name="ZOrder">-2</P>
+    <P Name="AttributesFormatString">%&lt;object_name&gt; (%&lt;board_type&gt;-%&lt;board_number&gt;)</P>
+    <P Name="LibraryVersion">1.2260</P>
+    <P Name="UserDataPersistent">on</P>
+    <P Name="UserData" Ref="bdmxdata:UserData_2"/>
+    <P Name="SourceBlock">quarc_library/Data Acquisition/Generic/Configuration/HIL Initialize</P>
+    <P Name="SourceType">HIL Initialize</P>
+    <P Name="SourceProductName">QUARC Targets</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="object_name">HIL-1</P>
+      <P Name="board_type">q2_usb</P>
+      <P Name="board_number">0</P>
+      <P Name="board_options">d0=digital;d1=digital;led=auto;update_rate=normal;decimation=1</P>
+      <P Name="exclusive">off</P>
+      <P Name="active">off</P>
+      <P Name="hardware_clocks">[0]</P>
+      <P Name="clock_modes">[]</P>
+      <P Name="initial_clock_frequencies">[]</P>
+      <P Name="set_clock_params_at_start">off</P>
+      <P Name="set_clock_params_at_switch_in">off</P>
+      <P Name="set_clock_frequencies_at_start">off</P>
+      <P Name="set_clock_frequencies_at_switch_in">off</P>
+      <P Name="analog_input_channels">[0:1]</P>
+      <P Name="analog_input_configurations">[]</P>
+      <P Name="analog_input_maximums">10</P>
+      <P Name="analog_input_minimums">-10</P>
+      <P Name="set_analog_input_params_at_start">on</P>
+      <P Name="set_analog_input_params_at_switch_in">off</P>
+      <P Name="analog_output_channels">[0:1]</P>
+      <P Name="analog_output_maximums">10</P>
+      <P Name="analog_output_minimums">-10</P>
+      <P Name="initial_analog_outputs">[0]</P>
+      <P Name="final_analog_outputs">[0]</P>
+      <P Name="watchdog_analog_outputs">0</P>
+      <P Name="set_analog_output_params_at_start">on</P>
+      <P Name="set_analog_output_params_at_switch_in">off</P>
+      <P Name="set_analog_outputs_at_start">on</P>
+      <P Name="set_analog_outputs_at_switch_in">off</P>
+      <P Name="set_analog_outputs_at_terminate">on</P>
+      <P Name="set_analog_outputs_at_switch_out">off</P>
+      <P Name="set_analog_outputs_on_watchdog">off</P>
+      <P Name="digital_input_channels">[]</P>
+      <P Name="digital_output_channels">[]</P>
+      <P Name="digital_output_configuration">[]</P>
+      <P Name="initial_digital_outputs">[1]</P>
+      <P Name="final_digital_outputs">[1]</P>
+      <P Name="watchdog_digital_outputs">[1]</P>
+      <P Name="set_digital_output_params_at_start">off</P>
+      <P Name="set_digital_output_params_at_switch_in">off</P>
+      <P Name="set_digital_outputs_at_start">on</P>
+      <P Name="set_digital_outputs_at_switch_in">off</P>
+      <P Name="set_digital_outputs_at_terminate">on</P>
+      <P Name="set_digital_outputs_at_switch_out">off</P>
+      <P Name="set_digital_outputs_on_watchdog">off</P>
+      <P Name="encoder_channels">[0:1]</P>
+      <P Name="quadrature">[4]</P>
+      <P Name="encoder_filter_frequency">[]</P>
+      <P Name="initial_encoder_counts">[0]</P>
+      <P Name="set_encoder_params_at_start">on</P>
+      <P Name="set_encoder_params_at_switch_in">off</P>
+      <P Name="set_encoder_counts_at_start">on</P>
+      <P Name="set_encoder_counts_at_switch_in">off</P>
+      <P Name="pwm_channels">[]</P>
+      <P Name="pwm_modes">[0]</P>
+      <P Name="pwm_frequency">1/0.020</P>
+      <P Name="pwm_configuration">[]</P>
+      <P Name="pwm_alignment">[]</P>
+      <P Name="pwm_polarity">[]</P>
+      <P Name="pwm_leading_deadband">[]</P>
+      <P Name="pwm_trailing_deadband">[]</P>
+      <P Name="initial_pwm_outputs">[0]</P>
+      <P Name="final_pwm_outputs">[0]</P>
+      <P Name="watchdog_pwm_outputs">[0]</P>
+      <P Name="set_pwm_params_at_start">on</P>
+      <P Name="set_pwm_params_at_switch_in">off</P>
+      <P Name="set_pwm_outputs_at_start">on</P>
+      <P Name="set_pwm_outputs_at_switch_in">off</P>
+      <P Name="set_pwm_outputs_at_terminate">on</P>
+      <P Name="set_pwm_outputs_at_switch_out">off</P>
+      <P Name="set_pwm_outputs_on_watchdog">off</P>
+      <P Name="other_output_channels">[]</P>
+      <P Name="initial_other_outputs">[]</P>
+      <P Name="final_other_outputs">[]</P>
+      <P Name="watchdog_other_outputs">[]</P>
+      <P Name="set_other_outputs_at_start">off</P>
+      <P Name="set_other_outputs_at_switch_in">off</P>
+      <P Name="set_other_outputs_at_terminate">off</P>
+      <P Name="set_other_outputs_at_switch_out">off</P>
+      <P Name="set_other_outputs_on_watchdog">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="HIL Read Encoder" SID="4">
+    <PortCounts out="1"/>
+    <P Name="Position">[615, 49, 700, 111]</P>
+    <P Name="ZOrder">-4</P>
+    <P Name="AttributesFormatString">(%&lt;object_name&gt;)</P>
+    <P Name="LibraryVersion">1.2260</P>
+    <P Name="UserDataPersistent">on</P>
+    <P Name="UserData" Ref="bdmxdata:UserData_4"/>
+    <P Name="SourceBlock">quarc_library/Data Acquisition/Generic/Immediate I//O/HIL Read Encoder</P>
+    <P Name="SourceType">HIL Read Encoder</P>
+    <P Name="SourceProductName">QUARC Targets</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="object_name">HIL-1</P>
+      <P Name="channels">0</P>
+      <P Name="sample_time">qc_get_step_size</P>
+      <P Name="active">on</P>
+      <P Name="vector_output">off</P>
+      <P Name="data_type_mode">Inherit via back propagation</P>
+      <P Name="data_type">double</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="HIL Read Encoder1" SID="161">
+    <PortCounts out="1"/>
+    <P Name="Position">[615, 234, 700, 296]</P>
+    <P Name="ZOrder">32</P>
+    <P Name="AttributesFormatString">(%&lt;object_name&gt;)</P>
+    <P Name="LibraryVersion">1.2260</P>
+    <P Name="UserDataPersistent">on</P>
+    <P Name="UserData" Ref="bdmxdata:UserData_161"/>
+    <P Name="SourceBlock">quarc_library/Data Acquisition/Generic/Immediate I//O/HIL Read Encoder</P>
+    <P Name="SourceType">HIL Read Encoder</P>
+    <P Name="SourceProductName">QUARC Targets</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="object_name">HIL-1</P>
+      <P Name="channels">1</P>
+      <P Name="sample_time">qc_get_step_size</P>
+      <P Name="active">on</P>
+      <P Name="vector_output">off</P>
+      <P Name="data_type_mode">Inherit via back propagation</P>
+      <P Name="data_type">double</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="HIL Write" SID="5">
+    <P Name="Tag">unassigned</P>
+    <PortCounts in="1"/>
+    <P Name="Position">[255, 152, 340, 218]</P>
+    <P Name="ZOrder">-5</P>
+    <P Name="AttributesFormatString">(%&lt;object_name&gt;)</P>
+    <P Name="LibraryVersion">1.2260</P>
+    <P Name="UserDataPersistent">on</P>
+    <P Name="UserData" Ref="bdmxdata:UserData_5"/>
+    <P Name="SourceBlock">quarc_library/Data Acquisition/Generic/Immediate I//O/HIL Write</P>
+    <P Name="SourceType">HIL Write</P>
+    <P Name="SourceProductName">QUARC Targets</P>
+    <InstanceData>
+      <P Name="MultithreadedSim">auto</P>
+      <P Name="object_name">HIL-1</P>
+      <P Name="analog_channels">0</P>
+      <P Name="pwm_channels">[]</P>
+      <P Name="digital_channels">[]</P>
+      <P Name="other_channels">[]</P>
+      <P Name="sample_time">-1</P>
+      <P Name="active">off</P>
+      <P Name="vector_input">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Saturate" Name="Saturation" SID="16">
+    <P Name="Position">[200, 170, 235, 200]</P>
+    <P Name="ZOrder">17</P>
+    <P Name="UpperLimit">10</P>
+    <P Name="LowerLimit">-10</P>
+  </Block>
+  <Block BlockType="Gain" Name="Servo:&#xA; Counts to Rad" SID="19">
+    <P Name="Position">[740, 57, 815, 103]</P>
+    <P Name="ZOrder">23</P>
+    <P Name="Gain">2*pi/2^12</P>
+  </Block>
+  <Block BlockType="Gain" Name="Servo:&#xA; Counts to Rad1" SID="162">
+    <P Name="Position">[740, 242, 815, 288]</P>
+    <P Name="ZOrder">33</P>
+    <P Name="Gain">2*pi/2^12</P>
+  </Block>
+  <Block BlockType="TransferFcn" Name="Transfer Fcn2" SID="168">
+    <P Name="Position">[940, 124, 1180, 186]</P>
+    <P Name="ZOrder">410</P>
+    <P Name="Numerator">[1 0]</P>
+    <P Name="Denominator">[1/50^2 sqrt(2)/50 1]</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">model</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Outport" Name="th" SID="22">
+    <P Name="Position">[855, 73, 885, 87]</P>
+    <P Name="ZOrder">25</P>
+  </Block>
+  <Block BlockType="Outport" Name="dth" SID="198">
+    <P Name="Position">[1290, 148, 1320, 162]</P>
+    <P Name="ZOrder">413</P>
+    <P Name="Port">2</P>
+  </Block>
+  <Block BlockType="Outport" Name="alpha" SID="202">
+    <P Name="Position">[855, 258, 885, 272]</P>
+    <P Name="ZOrder">414</P>
+    <P Name="Port">3</P>
+  </Block>
+  <Line>
+    <P Name="ZOrder">1</P>
+    <P Name="Src">4#out:1</P>
+    <P Name="Dst">19#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">3</P>
+    <P Name="Src">19#out:1</P>
+    <P Name="Points">[6, 0]</P>
+    <Branch>
+      <P Name="ZOrder">16</P>
+      <P Name="Points">[0, 75]</P>
+      <P Name="Dst">168#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">15</P>
+      <P Name="Dst">22#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">4</P>
+    <P Name="Src">21#out:1</P>
+    <P Name="Dst">51#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">5</P>
+    <P Name="Src">16#out:1</P>
+    <P Name="Dst">5#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">8</P>
+    <P Name="Src">51#out:1</P>
+    <P Name="Dst">16#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">32</P>
+    <P Name="Src">162#out:1</P>
+    <P Name="Dst">202#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">11</P>
+    <P Name="Src">161#out:1</P>
+    <P Name="Dst">162#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">model</P>
+    <P Name="FontName">Helvetica</P>
+    <P Name="FontSize">9</P>
+    <P Name="FontWeight">normal</P>
+    <P Name="FontAngle">normal</P>
+    <P Name="ZOrder">31</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">168#out:1</P>
+    <P Name="Dst">198#in:1</P>
+  </Line>
+  <Annotation SID="26">
+    <P Name="Position">[61, 105, 375, 259]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedHeight">on</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="ForegroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="DropShadow">on</P>
+    <P Name="AnnotationType">area_annotation</P>
+    <P Name="ZOrder">114</P>
+    <P Name="FontSize">12</P>
+  </Annotation>
+  <Annotation SID="24">
+    <P Name="Position">[597, 5, 901, 143]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="ForegroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="DropShadow">on</P>
+    <P Name="AnnotationType">area_annotation</P>
+    <P Name="ZOrder">113</P>
+    <P Name="FontSize">12</P>
+  </Annotation>
+  <Annotation SID="10">
+    <P Name="Name">Apply voltage to servo motor.
+Connected via amplifier to Analog Output #0.</P>
+    <P Name="Position">[120, 113, 319, 141]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="ZOrder">-4</P>
+  </Annotation>
+  <Annotation SID="12">
+    <P Name="Name">Read Encoder Input #0.</P>
+    <P Name="Position">[703, 19, 810, 34]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="ZOrder">-6</P>
+  </Annotation>
+  <Annotation SID="13">
+    <P Name="Name">Data Acquisition Device Selector.</P>
+    <P Name="Position">[412, 119, 560, 134]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="ZOrder">-7</P>
+  </Annotation>
+  <Annotation SID="164">
+    <P Name="Name">Read Encoder Input #0.</P>
+    <P Name="Position">[703, 204, 810, 219]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="ZOrder">-1</P>
+  </Annotation>
+  <Annotation SID="165">
+    <P Name="Position">[597, 190, 901, 328]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="ForegroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
+    <P Name="DropShadow">on</P>
+    <P Name="AnnotationType">area_annotation</P>
+    <P Name="ZOrder">115</P>
+    <P Name="FontSize">12</P>
+  </Annotation>
+</System>
